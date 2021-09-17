@@ -46,5 +46,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>spinner/Roboto/Roboto-Regular.ttf</string>
+		<string>Shrikhand-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

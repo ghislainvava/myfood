@@ -28,6 +28,8 @@
 		BD1D5EF226F3451F0095C0EF /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1D5EE526F3451F0095C0EF /* Roboto-Black.ttf */; };
 		BD1D5F1626F367F50095C0EF /* Shrikhand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1D5F1426F367F50095C0EF /* Shrikhand-Regular.ttf */; };
 		BD1D5F1726F367F50095C0EF /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD1D5F1526F367F50095C0EF /* OFL.txt */; };
+		BD4843BD26FC87C400D677B4 /* Medaillon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4843BC26FC87C400D677B4 /* Medaillon.swift */; };
+		BD4C5AA626FCC88A00B71B73 /* simplelabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C5AA526FCC88A00B71B73 /* simplelabels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		BD1D5EE526F3451F0095C0EF /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		BD1D5F1426F367F50095C0EF /* Shrikhand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shrikhand-Regular.ttf"; sourceTree = "<group>"; };
 		BD1D5F1526F367F50095C0EF /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BD4843BC26FC87C400D677B4 /* Medaillon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medaillon.swift; sourceTree = "<group>"; };
+		BD4C5AA526FCC88A00B71B73 /* simplelabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simplelabels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +132,9 @@
 				BD1D5F1326F367F50095C0EF /* Shrikhand */,
 				BD1D5ED826F3451F0095C0EF /* Roboto */,
 				BD1D5E6D26F3303A0095C0EF /* spinnerApp.swift */,
+				BD4C5AA526FCC88A00B71B73 /* simplelabels.swift */,
 				BD1D5E6F26F3303A0095C0EF /* ContentView.swift */,
+				BD4843BC26FC87C400D677B4 /* Medaillon.swift */,
 				BD1D5E7126F3303C0095C0EF /* Assets.xcassets */,
 				BD1D5E7626F3303C0095C0EF /* Info.plist */,
 				BD1D5E7326F3303C0095C0EF /* Preview Content */,
@@ -336,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1D5E7026F3303A0095C0EF /* ContentView.swift in Sources */,
+				BD4843BD26FC87C400D677B4 /* Medaillon.swift in Sources */,
+				BD4C5AA626FCC88A00B71B73 /* simplelabels.swift in Sources */,
 				BD1D5E6E26F3303A0095C0EF /* spinnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +503,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"spinner/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ892XR3M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = spinner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -516,6 +525,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"spinner/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ892XR3M9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = spinner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
